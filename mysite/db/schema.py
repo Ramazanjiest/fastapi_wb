@@ -7,7 +7,7 @@ class RegisterSchema(BaseModel):
     last_name: Optional[str]
     username: str
     phone_number: str
-    age: Optional[str]
+    age: Optional[int]
     profile_image: str
     password: str
 
